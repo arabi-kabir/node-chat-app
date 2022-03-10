@@ -10,4 +10,4 @@ const router = express.Router();
 // login
 router.get('/', decorateHtmlResponse("Inbox"), getInbox)
 
-module.exports = router
+module.exports = router 
